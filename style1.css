@@ -1,0 +1,22 @@
+body{
+	position:relative;
+}
+ul.nav-pills{
+	top:100px;
+	position:absolutes;
+	
+}
+div.col-8 div{
+height:500px;}
+
+.navbar{
+	margin:35px;
+    width:auto;
+	border-color:red;
+	border-style:solid;
+	border-radius:50px;
+}
+
+.navbar li:hover{
+	background-color:pink;
+}

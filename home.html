@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+<title> Bank of R&R </title>
+<link rel="icon" href="logo.png" type="image/x-icon"> 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  
+</head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<body>
+
+<header>
+<img src="logo.png" width="400" height="300"/>
+<br>
+<br>
+<h1> Bank of R&R </h1>
+<p> Easiest way to do transaction </p>
+</header>
+
+
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+<a class="navbar-brand" href="#"> <img src="logo.png" width="75" height="50"/> </a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapseNavbar">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="collapseNavbar">
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link" href="home.html"> Home </a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#"> Contact </a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="about.html"> About</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="gallery.html"> Gallery </a>
+</li>
+</ul>
+</div>
+</nav>
+<br>
+
+
+
+<fieldset>
+<legend> Your Date & Time </legend>
+<p>The computer date and time in your country as read </p>
+<p id="dt"></p>
+
+<input type="button" class="hideB" value="Hide" onclick="hide()">
+<input type="button" class="showB" value="Show" onclick="show()">
+
+<p> The time you joined on our webpage </p>
+<p id="tc"></p>
+
+<button class="stopB" onclick="clearInterval(timeCounter)">Stop Time</button>
+<br>
+<input type="button" class="helpB" value="Help?" onclick="help1()">
+<br>
+
+</fieldset>
+
+<div class="location">
+
+<p> Click the button to know your location coordinates </p>
+
+<button onclick="getLocationCr()" class="lcbutton"> Find My Coord </button>
+<p><strong> Location API's are not supportive for some of the browsers</strong></p>
+
+<p id="locationCr"></p>
+
+</div>
+
+<img src="" />
+
+<div class="trans">
+
+<h2> Your Transaction Unit </h2>
+
+
+<button class="trButton" onclick="login()" value="Login"> Login </button>
+<br>
+<h4 id="un"> Not Logged In</h4>
+
+
+<div class="ownDetails">
+
+<p id="crd">This is the place for the card number</p>
+<p id="bal">This place is for the balance </p>
+<p id="trans">The new transaction go here</p>
+</div>
+
+<div class="withdraw">
+<button class="wdrButton" onclick="withdraw()" value="withdraw">Withdraw Money </button>
+
+</div>
+
+
+<div class="reciept">
+<button class="recieptB" onclick="reciept()" value="reciept">Reciept</button>
+<h3 id="r1"></h3>
+<br><br>
+<p id="r2"></p>
+<p id="r3"></p>
+<p id="trans">The new transaction go here</p>
+<p id="r5"></p>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+<script src="code.js"></script>
+</body>
+</html>

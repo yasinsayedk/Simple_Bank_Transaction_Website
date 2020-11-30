@@ -1,0 +1,235 @@
+body{
+	background-image:url("https://image.freepik.com/free-vector/bank-icon-with-circuit-background-concept_41921-12.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:25px;
+}
+header{
+	background-color:#00ffdd;
+	opacity:90%;
+	text-align:center;
+	font-family:Times;
+	padding:25px;
+	margin:40;
+	border-color:red;
+	border-style:solid;
+	border-radius:50px;
+
+}
+
+header h1{
+	font-size:65px;
+	letter-spacing:8px;
+}
+header p{
+	font-size:35px;
+	letter-spacing:8px;
+}
+header img{
+	float:left;
+	padding:25px;
+	
+}
+
+
+.navbar{
+	
+width:100%;
+	border-color:red;
+	border-style:solid;
+	border-radius:50px;
+}
+
+.navbar li:hover{
+	background-color:pink;
+}
+
+fieldset,legend{
+	
+	margin-top:25px;
+	margin-left:40px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding:40px;
+	text-align:center;
+	background-color:orange;
+	opacity:90%;
+	color:black;
+	border-color:red;
+	border-radius:65px;
+	border-size:medium;
+	border-style:solid;
+	font-size:25px;
+	font-family:Times;
+}
+legend{
+	padding:50px;
+	border-bottom-color:blue;
+	text-decoration:underline;
+	color:blue
+	letter-spacing:12px;
+}
+
+#dt, #tc{
+	background-color:black;
+	color:yellow;
+	font-size:30px;
+	border-color:blue;
+	border-radius:40px;
+	border-type:solid;
+}
+.showB{
+		background-color:black;
+	color:yellow;
+	padding:15 px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	margin:4px 2px;
+		border-color:blue;
+	border-radius:60px;
+	border-type:solid;
+	padding:10px;
+}
+	
+
+.hideB{
+	background-color:black;
+	color:yellow;
+	padding:15 px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	margin:4px 2px;
+		border-color:blue;
+	border-radius:60px;
+	border-type:solid;
+	padding:10px;
+	
+}
+.helpB{
+		background-color:#08deff;
+	color:white;
+	padding:15 px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	margin:4px 2px;
+		border-color:black;
+	border-radius:60px;
+	border-type:solid;
+	padding:10px;
+	
+}
+
+.stopB{
+		background-color:red;
+	color:white;
+	padding:15 px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	margin:4px 2px;
+		border-color:wite;
+	border-radius:60px;
+	border-type:solid;
+	padding:10px;
+}
+
+.location{
+	margin-top:25px;
+	margin-left:40px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding:40px;
+	text-align:center;
+	background-color:#591ce8;
+	opacity:90%;
+	color:white;
+	border-color:white;
+	border-radius:65px;
+	border-size:medium;
+	border-style:solid;
+	font-size:25px;
+	font-family:Times;
+	
+}
+
+.trans{
+		margin-top:25px;
+	margin-left:40px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding:40px;
+	text-align:center;
+	background-color:#05f595;
+	opacity:90%;
+	color:white;
+	border-color:white;
+	border-radius:65px;
+	border-size:medium;
+	border-style:solid;
+	font-size:25px;
+	font-family:Times;
+
+}
+
+.ownDetails{
+	margin-top:25px;
+	margin-left:40px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding:40px;
+	text-align:center;
+	background-color:#f00717;
+	opacity:90%;
+	color:white;
+	border-color:white;
+	border-radius:65px;
+	border-size:medium;
+	border-style:solid;
+	font-size:25px;
+	font-family:Times;
+}
+
+.withdraw{
+		margin-top:25px;
+	margin-left:40px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding:40px;
+	text-align:center;
+	background-color:#05f2f2;
+	opacity:90%;
+	color:black;
+	border-color:white;
+	border-radius:65px;
+	border-size:medium;
+	border-style:solid;
+	font-size:25px;
+	font-family:Times;
+	
+}
+.reciept{
+	margin-top:25px;
+	margin-left:40px;
+	margin-bottom:40px;
+	margin-right:40px;
+	padding:40px;
+	text-align:center;
+	background-color:white;
+	opacity:90%;
+	color:black;
+	border-color:white;
+	border-radius:65px;
+	border-size:medium;
+	border-style:solid;
+	font-size:25px;
+	letter-spacing:15px;
+	font-family:Luicida Console;
+}
